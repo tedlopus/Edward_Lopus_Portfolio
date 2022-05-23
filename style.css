@@ -126,3 +126,12 @@ img {
   position: relative;
   color: white;
 }
+
+.information {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1%;
+  width: 100%;
+  align-self: center;
+}
