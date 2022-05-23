@@ -71,31 +71,6 @@ img {
   justify-content: space-evenly;
 }
 
-#first {
-  position: relative;
-  object-fit: contain;
-}
-
-#second {
-  position: relative;
-  object-fit: contain;
-}
-
-#third {
-  position: relative;
-  object-fit: contain;
-}
-
-#fourth {
-  position: relative;
-  object-fit: contain;
-}
-
-#fifth {
-  position: relative;
-  object-fit: contain;
-}
-
 .box {
   display: flex;
   background: green;
@@ -120,12 +95,9 @@ img {
 
 .content {
   width: 70%;
-}
-
-.portfoliowork {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .aboutMe {
