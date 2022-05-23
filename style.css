@@ -60,13 +60,15 @@ p {
   margin: auto;
 }
 
+img {
+  width: 303px;
+  height: 288px;
+}
+
 #portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
-.img {
-    0
 }
 
 .box {
@@ -124,16 +126,16 @@ p {
 #first {
     object-fit: contain;
 }
-#red {
-    max-width: 50%;
-    max-height: 50%;
+#second {
+   object-fit: contain;
 }
-/* #third {
-    flex-basis: 0 0 20%;
+#third {
+  object-fit: contain;
 }
 #fourth {
-    flex-basis: 0 0 20%;
+ object-fit: contain;
 }
 #fifth {
-    flex-basis: 0 0 20%;
-} */
+  object-fit: contain;
+}
+
