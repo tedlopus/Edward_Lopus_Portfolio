@@ -8,7 +8,7 @@
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   list-style-type: none;
 }
 nav a {
@@ -71,6 +71,31 @@ img {
   justify-content: space-evenly;
 }
 
+#first {
+  position: relative;
+  object-fit: contain;
+}
+
+#second {
+  position: relative;
+  object-fit: contain;
+}
+
+#third {
+  position: relative;
+  object-fit: contain;
+}
+
+#fourth {
+  position: relative;
+  object-fit: contain;
+}
+
+#fifth {
+  position: relative;
+  object-fit: contain;
+}
+
 .box {
   display: flex;
   background: green;
@@ -79,6 +104,7 @@ img {
 }
 .container {
   display: flex;
+  flex-wrap: flex;
   justify-content: space-around;
   margin-top: 3%;
 }
@@ -97,11 +123,11 @@ img {
 }
 
 .portfoliowork {
-  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .aboutMe {
   display: inline-flex;
   background: lightgray;
@@ -123,19 +149,8 @@ img {
   background: lightgray;
 }
 
-#first {
-    object-fit: contain;
+/* Bottom right text */
+.text-block {
+  position: relative;
+  color: white;
 }
-#second {
-   object-fit: contain;
-}
-#third {
-  object-fit: contain;
-}
-#fourth {
- object-fit: contain;
-}
-#fifth {
-  object-fit: contain;
-}
-
